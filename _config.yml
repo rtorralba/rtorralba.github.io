@@ -10,21 +10,20 @@ title: Artansoft
 email: your-email@domain.com
 description: >
   "THE ONLY WAY TO GO FAST IS TO GO WELL"
-logo: "/assets/images/logo.webp"
+logo: "/assets/images/logo.png"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.artansoft.com" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Raül Torralba Adsuara'
 bio: >
-  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
-  Ne solet nostrum complectitur pri, vis ut inani populo.
+    Software developer, organizer at @betabeersCAS, vim lover and artansoft's blogger.
 author_image: "/assets/images/author.jpg"
 twitter_username: raul_torralba
 github_username:  rtorralba
 
 # Google Analytics
-analytics_id: ""
+analytics_id: "UA-88635-9"
 
 # Build settings
 markdown: kramdown
