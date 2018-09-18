@@ -9,7 +9,7 @@ excerpt: |
   Al hacerlo la ejecución de npm (npm run prod) no ejecutaba las tareas en el fichero webpack.mix.js donde están las tareas de Laravel Mix a ejecutar.
 layout: post
 guid: https://www.artansoft.com/?p=593
-permalink: /2017/11/laravel-mix-con-node_modules-en-symlink/
+permalink: /2017/11/laravel-mix-con-node-modules-en-symlink/
 interface_sidebarlayout:
   - default
 related_posts:
