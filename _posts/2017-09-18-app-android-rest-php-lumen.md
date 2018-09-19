@@ -55,4 +55,4 @@ La idea es que la app tenga una cierta cache para que se mueva rápido y no teng
 
 Podéis probar el resultado final en <a href="https://play.google.com/store/apps/details?id=com.artansoft.ofertas" target="_blank" rel="noopener">Google play</a>. Dejad vuestros comentarios en la página y/o en Google play y puntuad la aplicación positivamente ;P.
 
-<img class="aligncenter wp-image-587 size-full" src="https://www.artansoft.com/wp-content/uploads/2017/09/mockDrop_Nexus-6-at-Apple-workstation_xicoteta.jpg" alt="" width="800" height="533" srcset="https://www.artansoft.com/wp-content/uploads/2017/09/mockDrop_Nexus-6-at-Apple-workstation_xicoteta.jpg 800w, https://www.artansoft.com/wp-content/uploads/2017/09/mockDrop_Nexus-6-at-Apple-workstation_xicoteta-300x200.jpg 300w, https://www.artansoft.com/wp-content/uploads/2017/09/mockDrop_Nexus-6-at-Apple-workstation_xicoteta-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />
+<img src="/uploads/2017/09/mockDrop_Nexus-6-at-Apple-workstation_xicoteta.jpg" alt="" width="800" height="533"/>
