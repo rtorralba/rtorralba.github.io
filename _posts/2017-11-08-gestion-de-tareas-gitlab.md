@@ -40,7 +40,7 @@ GitLab ofrece un gestor de tareas por proyecto, con la posibilidad de añadir <a
   * Normalmente creamos una columna Waiting en la que pondremos aquellas tareas que están paradas porque estamos esperando algo que nos permita continuar con ellas.
   * Cuando terminamos las tareas las pasamos a Closed, a ser posible, con el commit que la ha cerrado para que quede enlazado que modificación ha cerrado la misma.
 
-<img src="/wp-content/uploads/2017/11/issue_board_welcome_message.png" alt="Gestión de tareas con el tablero de GitLab" width="844" height="304"/>
+<amp-img src="/wp-content/uploads/2017/11/issue_board_welcome_message.png" alt="Gestión de tareas con el tablero de GitLab" width="844" height="304"></amp-img>
 
 Con esto, GitLab resuelve muy bien la gestión de tareas de un proyecto con un tablero, que sin llegar a tener todas las funcionalidades de Trello, ya que es un producto especializado en tableros, cubre todo lo necesario para gestionarlas.
 
@@ -56,6 +56,6 @@ De sobra es sabido que lo aconsejable es no cambiar mucho de proyecto para mante
 
 En la siguiente imagen podréis ver como nos marca GitLab en la barra de menú que tenemos, 5 issues, 6 merge requests y 2 To Do&#8217;s pendientes.
 
-<img src="/wp-content/uploads/2017/11/to-do.png" alt="Iconos de la barra de menú de GitLab" width="300" height="70"/>
+<amp-img src="/wp-content/uploads/2017/11/to-do.png" alt="Iconos de la barra de menú de GitLab" width="300" height="70"></amp-img>
 
 Imágenes de <a href="http://gitlab.com" target="_blank" rel="noopener">gitlab.com</a>
