@@ -37,7 +37,8 @@ Como os he explicado en el apartado anterior, como muchas aplicaciones PHP, esta
 
 ### Dockerfile
 
-<pre><code class="docker">FROM php:7.2-apache
+```docker
+FROM php:7.2-apache
 
 RUN apt-get update && apt-get install -y libmcrypt-dev git \ 
     mysql-client zip unzip libmagickwand-dev --no-install-recommends \ 
@@ -53,14 +54,13 @@ RUN apt-get update && apt-get install -y libmcrypt-dev git \
     && service apache2 restart
 
 WORKDIR /var/www
-</code></pre>
+```
 
 Como podréis ver, estamos partiendo de la imagen php:7.2-apache, instalamos todas las librerias que necesitamos, el gestor de paquetes PHP composer y finalmente habilitamos el módulo rewrite de apache. Este es el Dockerfile del servicio donde se ejecutará la aplicación.
 
 ### docker-compose.yml
 
-<pre><code class="yml">version: '3.1'
-
+```yml
 volumes:
     my-datavolume:
         driver: local
@@ -94,28 +94,29 @@ services:
             interval: 3s
             timeout: 10s
             retries: 10
-</code></pre>
+```
 
 En este fichero de configuración de docker-compose, vemos que levantaremos dos servicios:
 
   * la applicación PHP, que depende de la base de datos, porque la aplicación no funciona si no puede conectar de la misma, y usa el Dockerfile anteriormente explicado para crear el contenedor donde se ejecutará.
   * La base de datos, a la que le hemos definido un volumen para que persista entre ejecuciones Como detalle, para asegurar que la base de datos ya está levantada, definimos un healthcheck que cada 3 segundos intentará una consulta simple en la misma. Usamos en el contenedor el fichero de configuración de apache, 000-default.conf, que tenemos en nuestro proyecto.
 
-<pre><code class="apache">&lt;VirtualHost *:80&gt;
+```apache
+<VirtualHost *:80>
   ServerAdmin webmaster@localhost
   DocumentRoot /var/www/public
 
   ErrorLog ${APACHE_LOG_DIR}/error.log
   CustomLog ${APACHE_LOG_DIR}/access.log combined
 
-  &lt;Directory /var/www/public&gt;
+  <Directory /var/www/public>
     Options Indexes
     FollowSymLinks
     AllowOverride
     All Require all granted
-  &lt;/Directory&gt;
-&lt;/VirtualHost&gt;
-</code></pre>
+  </Directory>
+</VirtualHost>
+```
 
 Otra peculiaridad es que estamos compartiendo nuestra configuración ssh con el contenedor en la app porque tenemos paquetes composer privados en nuestro repositorio, y necesitamos acceso ssh para bajarlos.
 
@@ -123,7 +124,8 @@ Otra peculiaridad es que estamos compartiendo nuestra configuración ssh con el 
 
 Esta parte es algo común en proyectos PHP laravel, y no está relacionada con Docker, pero es un conjunto de acciones que deberemos realizar al clonar la primera vez el proyecto, por lo que lo hemos agrupado en un script init.sh.
 
-<pre><code class="bash">#!/usr/bin/env bash 
+```bash
+#!/usr/bin/env bash 
 
 composer install
 
@@ -136,7 +138,7 @@ php artisan migrate:fresh --seed
 php artisan storage:link
 
 chmod -R 775 storage
-</code></pre>
+```
 
   * Instalamos las dependencias
   * Copiamos la configuración de entorno y generamos la key de la aplicación.
@@ -146,14 +148,17 @@ chmod -R 775 storage
 
 Con todo esto, cuando un desarrollador se descarge el proyecto sólo tendrá que ejecutar dos comandos para empezar a trabajar, el segundo sólo la primera vez:
 
-  * docker-compose up
-  * docker-compose exec php ./init.bash
+```bash
+docker-compose up
+docker-compose exec php ./init.bash
+```
 
 ## Test unitarios
 
 Es conveniente ejecutar los [test unitarios](https://www.artansoft.com/2017/02/phpunit-testear-antes-del-repositorio/) en nuestros PCs ya que son rápidos de ejecutar y nos permitirá subir código libre de errores al repositorio. Para ello con docker, podemos ejecutarlos como en cualquier proyecto, solamente teniendo en cuenta que en este caso este está dentro de contenedor en un entorno creado con docker-compose, por lo que podemos hacer lo siguiente:
 
-<pre><code class="bash">docker-compose exec php vendor/bin/phpunit 
-</code></pre>
+```bash
+docker-compose exec php vendor/bin/phpunit 
+```
 
 Si usamos editores avanzados como PHPStorm, están preparados para ejecutar los test a través de contenedores. Al final ejecutan el mismo comando pero nos facilitan la labor pudiéndolo hacer con un clic.
