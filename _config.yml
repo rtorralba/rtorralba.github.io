@@ -33,8 +33,4 @@ kramdown:
 
 plugins:
   - jekyll-paginate
-  - jekyll-redirect-from
   - jekyll-sitemap
-
-whitelist:
-  - jekyll-redirect-from
