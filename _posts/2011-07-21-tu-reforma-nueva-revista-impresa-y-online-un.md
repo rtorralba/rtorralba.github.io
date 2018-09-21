@@ -5,6 +5,7 @@ date: 2011-07-21T17:59:00+00:00
 author: rtorralba
 layout: post
 guid: http://wordpress.artansoft.com/2011/07/21/tu-reforma-nueva-revista-impresa-y-online-un/
+permalink: /2011/07/21/tu-reforma-nueva-revista-impresa-y-online-un/
 tumblr_artansoft_permalink:
   - http://artansoft.tumblr.com/post/125859511168/tu-reforma-nueva-revista-impresa-y-online-un
 tumblr_artansoft_id:
