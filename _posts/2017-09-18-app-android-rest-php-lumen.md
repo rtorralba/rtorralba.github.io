@@ -54,5 +54,3 @@ Para la aplicación elijo la distribución navigation drawer con el menú latera
 La idea es que la app tenga una cierta cache para que se mueva rápido y no tenga que hacer peticiones cada vez que se cambie de categoría. Inicialmente probé guardarlo en una base de datos SQLite, pero el rendimiento era malísimo y tardaba mucho en realizar todo el proceso de actualización de la misma. Cambié guardando los datos en las SharedPreferences de la aplicación consiguiendo así un rendimiento mucho mejor y con ello mucha más velocidad.
 
 Podéis probar el resultado final en <a href="https://play.google.com/store/apps/details?id=com.artansoft.ofertas" target="_blank" rel="noopener">Google play</a>. Dejad vuestros comentarios en la página y/o en Google play y puntuad la aplicación positivamente ;P.
-
-<img src="/uploads/2017/09/mockDrop_Nexus-6-at-Apple-workstation_xicoteta.jpg" alt="" width="800" height="533"/>
