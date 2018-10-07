@@ -14,27 +14,29 @@ Algunas veces al fusionar dos ramas no resulta tan bien, sino que hay un conflic
 
 Cuando sucede esto GIT nos mostrará algo similar a lo siguiente en la consola de comandos:
 
-<pre class="brush: bash; title: ; notranslate" title="">Automezclado index.html
+```bash
+Automezclado index.html
 CONFLICTO(contenido): conflicto de fusión en index.html
 Automatic merge failed; fix conflicts and then commit the result.
-</pre>
+```
 
 Cómo dice el título: **¡¡¡No entres en pánico!!!**
 
 Realmente, lo único que ha pasado es que en las dos ramas se ha/n modificado el mismo archivo/s en la misma línea. Sólo tendremos que abrirlo/s y decidir con que nos quedamos:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<<<<<<< HEAD
     
 
 
-&lt;h1&gt;Hola que tal el taller de GIT?&lt;/h1&gt;
+<h1>Hola que tal el taller de GIT?</h1>
 
 
 
@@ -42,14 +44,14 @@ Realmente, lo único que ha pasado es que en las dos ramas se ha/n modificado el
     
 
 
-&lt;h1&gt;Hola que tal el taller?&lt;/h1&gt;
+<h1>Hola que tal el taller?</h1>
 
 
 
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; develop
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
+>>>>>>> develop
+</body>
+</html>
+```
 
 Lo que está en la rama actual esta entre <<<<<<< HEAD y ======= y en la parte del código de la rama que estamos intentando fusionar entre ======= y >>>>>>>.
 
@@ -63,7 +65,8 @@ Por ejemplo nos podemos quedar con los de la rama actual que es lo que realmente
 
 Después de guardarlo haremos los siguiente:
 
-<pre class="brush: bash; title: ; notranslate" title="">git status
+```bash
+git status
 
 En la rama master
 Tiene rutas sin fusionar.
@@ -92,7 +95,7 @@ Merge branch 'develop'
 # and try again.
                       
 [master 86e032c] Merge branch 'develop' (Al guardar nos mostrará este mensaje confirmando el commit
-</pre>
+```
 
 Los conflictos pueden suceder en varios archivos y varias líneas, sólo tendremos ir resolviéndolos uno a uno.
 
