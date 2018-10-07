@@ -97,10 +97,9 @@ Merge branch 'develop'
 Los conflictos pueden suceder en varios archivos y varias líneas, sólo tendremos ir resolviéndolos uno a uno.
 
 Recuerda que tener el código actualizado antes de empezar a modificarlo nos ayudara a tener menos conflictos, con lo cual es recomendable hacer **git pull** antes de empezar a tocarlo.
+Los IDEs  herramientas para GIT nos facilitan la tarea de resolución de conflictos mostrándolos de una manera más visual. En la siguiente imagen vemos como se muestra la resolución de conflictos en la herramienta integrada de PHPStorm.
 
-Los IDEs y herramientas para GIT nos facilitan la tarea de resolución de conflictos mostrándolos de una manera más visual. En la siguiente imagen vemos como se muestra la resolución de conflictos en la herramienta integrada de PHPStorm.
-
-<img class=" wp-image-527 aligncenter" src="https://www.artansoft.com/wp-content/uploads/2017/05/merge-files-300x162.png" alt="Merge con PHPStorm" width="771" height="416" srcset="https://www.artansoft.com/wp-content/uploads/2017/05/merge-files-300x162.png 300w, https://www.artansoft.com/wp-content/uploads/2017/05/merge-files-768x415.png 768w, https://www.artansoft.com/wp-content/uploads/2017/05/merge-files-1024x554.png 1024w, https://www.artansoft.com/wp-content/uploads/2017/05/merge-files.png 1039w" sizes="(max-width: 771px) 100vw, 771px" />
+<amp-img src="/wp-content/uploads/2017/05/merge-files.png" alt="Merge con PHPStorm" width="900" height="675" layout="responsive"></amp-img>
 
 ## Quedándonos con los cambios de la rama actual o con los de la que se va a fusionar.
 
