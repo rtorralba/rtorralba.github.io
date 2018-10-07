@@ -7,14 +7,6 @@ excerpt: Debido a la creciente moda del seguimiento e ofertas a través de blogs
 layout: post
 guid: https://www.artansoft.com/?p=579
 permalink: /2017/09/app-android-rest-php-lumen/
-interface_sidebarlayout:
-  - default
-related_posts:
-  - 'a:3:{i:0;i:13;i:1;i:14;i:2;i:409;}'
-dsq_thread_id:
-  - "6151600680"
-rop_post_url_twitter:
-  - 'https://www.artansoft.com/2017/09/app-android-rest-php-lumen/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost'
 image: /wp-content/uploads/2017/09/ofertas-diagram-3.png
 categories:
   - android
