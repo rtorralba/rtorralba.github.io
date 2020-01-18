@@ -1,6 +1,4 @@
 ---
-layout: page
-title: About
 permalink: /app-ads.txt
 ---
 google.com, pub-2999968454703339, DIRECT, f08c47fec0942fa0
