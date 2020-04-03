@@ -6,7 +6,6 @@ permalink: /jumper-privacy-policy/
 
 ## Information we collect
 
-
 We don’t collect any privacy information from user. Just collect necessary information for Google Analytics statistics into this Google service to analize the application usage.
 
 ## Why the app require permissions?
