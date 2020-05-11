@@ -27,12 +27,12 @@ Aunque el siguiente ejemplo no es la mejor manera de gestionar las ramas, nos se
 
 ## Comandos relativos a las ramas:
 
-  * Crear: git branch <rama>
-  * Movernos a una rama: git checkout <rama>
-  * Crear una rama y movernos a ella: git checkout -b <rama>
-  * Eliminar rama: git branch -d <rama> (No nos dejará borrar ramas sin fusionar)
-  * Eliminar rama aunque no esté fusionada: git branch -D <rama>
-  * Fusionar ramas (traernos los cambios de <rama>): git merge <rama>
+  * Crear: git branch rama
+  * Movernos a una rama: git checkout rama
+  * Crear una rama y movernos a ella: git checkout -b rama
+  * Eliminar rama: git branch -d rama (No nos dejará borrar ramas sin fusionar)
+  * Eliminar rama aunque no esté fusionada: git branch -D rama
+  * Fusionar ramas (traernos los cambios de rama): git merge rama
   * Listar ramas: git branch
   * Listar ramas con último commit: git branch -v
   * Etc&#8230;
