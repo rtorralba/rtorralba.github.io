@@ -71,7 +71,7 @@ Ya por último si queremos ejecutar los tests en consola:
 docker-compose exec e2e npx cypress run
 ```
 
-![Ejecución cypress]({{site.url}}/assets/images/posts/cypress.png)
+<amp-img width="800" height="738" layout="responsive" alt="Ejecución cypress php" src="{{site.url}}/assets/images/posts/cypress.png"></amp-img>
 
 Si preferimos abrir la consola de cypress para ejecutar los tests:
 
