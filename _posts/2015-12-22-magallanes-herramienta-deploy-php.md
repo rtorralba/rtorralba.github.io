@@ -28,7 +28,9 @@ tags:
   - developer-tools
   - php
 ---
-<a href="http://magephp.com/" target="_blank">Magallanes</a><a href="http://magephp.com/" target="_blank"><img class="alignright wp-image-197 size-full" src="https://www.artansoft.com/wp-content/uploads/2015/12/magallanes-logo.png" alt="Logotipo de la herramienta de deploy Magallanes" width="160" height="160" srcset="https://www.artansoft.com/wp-content/uploads/2015/12/magallanes-logo.png 160w, https://www.artansoft.com/wp-content/uploads/2015/12/magallanes-logo-150x150.png 150w, https://www.artansoft.com/wp-content/uploads/2015/12/magallanes-logo-100x100.png 100w" sizes="(max-width: 160px) 100vw, 160px" /></a> es una herramienta deploy de tu proyectos a tu/s servidor/es muy sencilla de usar que te dará funcionalidades interesantes y te permitirá llevar un control de los despliegues que vayas haciendo.
+<a href="http://magephp.com/" target="_blank">Magallanes</a><a href="http://magephp.com/" target="_blank">
+<amp-img layout="responsive" class="alignright wp-image-197 size-full" src="https://www.artansoft.com/wp-content/uploads/2015/12/magallanes-logo.png" alt="Logotipo de la herramienta de deploy Magallanes" width="160" height="160" srcset="https://www.artansoft.com/wp-content/uploads/2015/12/magallanes-logo.png 160w, https://www.artansoft.com/wp-content/uploads/2015/12/magallanes-logo-150x150.png 150w, https://www.artansoft.com/wp-content/uploads/2015/12/magallanes-logo-100x100.png 100w" sizes="(max-width: 160px) 100vw, 160px"></amp-img>
+</a> es una herramienta deploy de tu proyectos a tu/s servidor/es muy sencilla de usar que te dará funcionalidades interesantes y te permitirá llevar un control de los despliegues que vayas haciendo.
 
 ## Funcionalidades
 

@@ -41,5 +41,5 @@ format: link
     Esperamos que os guste.
   </p><figure class="tmblr-full">
   
-  <img src="http://40.media.tumblr.com/2bd34aa139f575d27b0383eb193c0f55/tumblr_inline_nusef7lwV71ta04ne_540.png" alt="image" /></figure>
+  <amp-img layout="responsive" src="http://40.media.tumblr.com/2bd34aa139f575d27b0383eb193c0f55/tumblr_inline_nusef7lwV71ta04ne_540.png" alt="image"></amp-img></figure>
 </div>

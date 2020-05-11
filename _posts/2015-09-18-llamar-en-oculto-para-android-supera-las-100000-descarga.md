@@ -22,10 +22,10 @@ categories:
 tags:
   - android tool
 ---
-<img class="aligncenter" src="http://40.media.tumblr.com/e7ef748f20bae1389e14707d1559a32e/tumblr_inline_nuvprgpsEa1ta04ne_540.png" alt="image" width="540" height="264" />
+<amp-img layout="responsive" class="aligncenter" src="http://40.media.tumblr.com/e7ef748f20bae1389e14707d1559a32e/tumblr_inline_nuvprgpsEa1ta04ne_540.png" alt="image" width="540" height="264"></amp-img>
 
 Nuestra aplicación para la realizar de llamadas sin que vean tu número a superado ya las 100.000 descargas y más de 10.000 usuarios activos.
 
 ¿No las has probado todavía? No esperes más a descargarte esta app que te permitirá realizar llamadas si que les aparezca tu número en el móvil del que recibe la llamada.
 
-[<img class="alignnone" src="https://play.google.com/intl/en_us/badges/images/generic/es-play-badge.png" alt="Get it on Google Play" width="287" height="85" />](https://play.google.com/store/apps/details?id=com.artansoft.llamarenoculto&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+[<amp-img layout="responsive" class="alignnone" src="https://play.google.com/intl/en_us/badges/images/generic/es-play-badge.png" alt="Get it on Google Play" width="287" height="85"></amp-img>](https://play.google.com/store/apps/details?id=com.artansoft.llamarenoculto&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
