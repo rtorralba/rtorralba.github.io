@@ -7,7 +7,7 @@ excerpt: 'Aunque algunos frameworks como Laravel tienen sus librerías de test e
 el Laravel Dusk, tal vez por diversos motivos queramos usar cypress para nuestros test de aceptación.'
 layout: post
 guid: https://www.artansoft.com/?p=639
-permalink: /2020/07/php-con-docker-desarrollo/
+permalink: /2020/05/php-con-docker-desarrollo/
 interface_sidebarlayout:
   - default
 related_posts:
