@@ -10,7 +10,7 @@ interface_sidebarlayout:
 ---
 En el siguiente gráfico veremos cómo desarrollar creando ramas según el workflow git flow.
 
-<img class=" wp-image-533 aligncenter" src="https://www.artansoft.com/wp-content/uploads/2017/05/git_flow-225x300.jpg" alt="GIT Flow" width="779" height="1039" srcset="https://www.artansoft.com/wp-content/uploads/2017/05/git_flow-225x300.jpg 225w, https://www.artansoft.com/wp-content/uploads/2017/05/git_flow.jpg 611w" sizes="(max-width: 779px) 100vw, 779px" />
+<amp-img layout="responsive" class=" wp-image-533 aligncenter" src="https://www.artansoft.com/wp-content/uploads/2017/05/git_flow-225x300.jpg" alt="GIT Flow" width="779" height="1039" srcset="https://www.artansoft.com/wp-content/uploads/2017/05/git_flow-225x300.jpg 225w, https://www.artansoft.com/wp-content/uploads/2017/05/git_flow.jpg 611w" sizes="(max-width: 779px) 100vw, 779px"></amp-img>
 
 De la rama **develop** salen y se fusionan las ramas de las mejoras a implementar y las ramas de preparación de código a producción **release-***. Cuando hay un error en producción a corregir, crearemos una rama **hotfix-*** que saldrá y se fusionará en **master** para desplegar a producción y en **develop** para continuar desarrollando las nuevas funcionalidades sin bugs.
 
