@@ -4,7 +4,7 @@ title: PHP con Docker. Test end to end con cypress
 date: 2020-05-10T23:58:11+02:00
 author: rtorralba
 excerpt: 'Aunque algunos frameworks como Laravel tienen sus librerías de test end to end más o menos integradas, en este caso sería
-el Laravel Dusk, tal vez por diversos motivos queramos usar cypress para nuestros test end to end.'
+el Laravel Dusk, tal vez por diversos motivos queramos usar cypress para nuestros test de aceptación.'
 layout: post
 guid: https://www.artansoft.com/?p=639
 permalink: /2020/07/php-con-docker-desarrollo/
@@ -20,9 +20,9 @@ categories:
 ## PHP con Docker. Cypress
 
 Aunque algunos frameworks como Laravel tienen sus librerías de test end to end más o menos integradas, en este caso sería
-el Laravel Dusk, tal vez por diversos motivos queramos usar cypress para nuestros test end to end.
+el Laravel Dusk, tal vez por diversos motivos queramos usar cypress para nuestros tests de aceptación.
 
-En este post explicaré una configuración sencilla para hacer test con cypress con docker.
+En este post explicaré una configuración sencilla para hacer test cypress con docker.
 
 ## Añadiendo servicio e2e cypress a docker-compose.yml
 
@@ -52,7 +52,7 @@ Como véis, en el servicio usamos la imagen de cypress:
 * Añadimos el link a la app para que desde el contendor de cypress se pueda acceder al servicio donde corre la misma.
 * En el entorno le pasamos la URL a partir de la cual tendrá que ejecutar los tests.
 * Compartimos la carpeta cypress para meter los tests en el contenedor y la configuración del fichero cypress.json.
-* Por último, añadimos uno volumen y variable de entorno, para que los tests se puedan ejecutar en nuestra pantalla 
+* Por último, añadimos un volumen y variable de entorno, para que los tests se puedan ejecutar en nuestra pantalla 
 (.X11-unix, DISPLAY) y el volumen /dev/shm para no tener problemas de memoría.
 
 ## Ejecutando los tests.
